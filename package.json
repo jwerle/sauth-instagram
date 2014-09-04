@@ -1,6 +1,6 @@
 {
   "name": "sauth-instagram",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Instagram sauth strategy",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
   "author": "Joseph Werle <joseph.werle@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "sauth": "0.0.3",
     "superagent": "^0.18.2"
   },
   "devDependencies": {},

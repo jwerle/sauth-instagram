@@ -1,0 +1,29 @@
+{
+  "name": "sauth-instagram",
+  "version": "0.0.1",
+  "description": "Instagram sauth strategy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instagram",
+    "sauth",
+    "command",
+    "line"
+  ],
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^0.18.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwerle/sauth-instagram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jwerle/sauth-instagram/issues"
+  },
+  "homepage": "https://github.com/jwerle/sauth-instagram"
+}

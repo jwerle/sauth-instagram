@@ -142,6 +142,6 @@ InstagramStrategy.prototype._access = function (done) {
 
 // implements `_end'
 InstagramStrategy.prototype._end = function (done) {
-  console.log('access token', this.data.access_token);
+  console.log(this.data);
   done();
 };

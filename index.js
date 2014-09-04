@@ -61,7 +61,7 @@ function InstagramStrategy (opts) {
 
 // inherit `InstagramStrategy'
 InstagramStrategy.prototype = Object.create(Strategy.prototype, {
-  constructr: {value: InstagramStrategy}
+  constructor: {value: InstagramStrategy}
 });
 
 // implements `_setup'

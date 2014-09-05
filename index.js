@@ -48,6 +48,10 @@ function InstagramStrategy (opts) {
   this.server = null;
   this.data = null;
 
+  if (!this.port) {
+    this.port = url.parse(this.redirectUri).port;
+  }
+
   if (null == this.id) {
     throw new TypeError("expecting client id");
   } else if (null == this.secret) {
